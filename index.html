@@ -1,69 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>Proyecto Local MindAR</title>
+  <meta charset="UTF-8">
+  <title>Cubo AR con 6 Caras</title>
   <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
   <style>
     body { margin: 0; overflow: hidden; }
-    #container { width: 100vw; height: 100vh; }
+    .scene-container { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; }
   </style>
 </head>
-
 <body>
-  <div id="container">
-    <a-scene mindar-image="imageTargetSrc: markers/targets.mind; autoStart: true;" 
-             color-space="sRGB" embedded 
-             renderer="colorManagement: true, physicallyCorrectLights" 
-             vr-mode-ui="enabled: false" 
-             device-orientation-permission-ui="enabled: true">
+
+  <!-- Cara 1 -->
+  <div class="scene-container">
+    <a-scene mindar-image="imageTargetSrc: markers/cara1.mind; autoStart: true;" embedded color-space="sRGB"
+             renderer="colorManagement: true, physicallyCorrectLights"
+             vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: true">
 
       <a-assets>
         <a-asset-item id="modelo1" src="assets/modelo1.glb"></a-asset-item>
+      </a-assets>
+
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-entity gltf-model="#modelo1" position="0 -0.1 0" scale="4 4 4" rotation="0 180 0"></a-entity>
+      </a-entity>
+    </a-scene>
+  </div>
+
+  <!-- Cara 2 -->
+  <div class="scene-container">
+    <a-scene mindar-image="imageTargetSrc: markers/cara2.mind; autoStart: true;" embedded color-space="sRGB"
+             renderer="colorManagement: true, physicallyCorrectLights"
+             vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: true">
+
+      <a-assets>
         <a-asset-item id="modelo2" src="assets/modelo2.glb"></a-asset-item>
+      </a-assets>
+
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-entity gltf-model="#modelo2" position="0 -0.1 0" scale="4 4 4" rotation="0 180 0"></a-entity>
+      </a-entity>
+    </a-scene>
+  </div>
+
+  <!-- Cara 3 -->
+  <div class="scene-container">
+    <a-scene mindar-image="imageTargetSrc: markers/cara3.mind; autoStart: true;" embedded color-space="sRGB"
+             renderer="colorManagement: true, physicallyCorrectLights"
+             vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: true">
+
+      <a-assets>
         <a-asset-item id="modelo3" src="assets/modelo3.glb"></a-asset-item>
-        <a-asset-item id="modelo4" src="assets/modelo4.glb"></a-asset-item> <!-- Saturno optimizado -->
+      </a-assets>
+
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-entity gltf-model="#modelo3" position="0 -0.1 0" scale="4 4 4" rotation="0 180 0"></a-entity>
+      </a-entity>
+    </a-scene>
+  </div>
+
+  <!-- Cara 4 -->
+  <div class="scene-container">
+    <a-scene mindar-image="imageTargetSrc: markers/cara4.mind; autoStart: true;" embedded color-space="sRGB"
+             renderer="colorManagement: true, physicallyCorrectLights"
+             vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: true">
+
+      <a-assets>
+        <a-asset-item id="modelo4" src="assets/modelo4.glb"></a-asset-item>
+      </a-assets>
+
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-entity gltf-model="#modelo4" position="0 -0.1 0" scale="4 4 4" rotation="0 180 0"></a-entity>
+      </a-entity>
+    </a-scene>
+  </div>
+
+  <!-- Cara 5 -->
+  <div class="scene-container">
+    <a-scene mindar-image="imageTargetSrc: markers/cara5.mind; autoStart: true;" embedded color-space="sRGB"
+             renderer="colorManagement: true, physicallyCorrectLights"
+             vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: true">
+
+      <a-assets>
         <a-asset-item id="modelo5" src="assets/modelo5.glb"></a-asset-item>
+      </a-assets>
+
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-entity gltf-model="#modelo5" position="0 -0.1 0" scale="4 4 4" rotation="0 180 0"></a-entity>
+      </a-entity>
+    </a-scene>
+  </div>
+
+  <!-- Cara 6 -->
+  <div class="scene-container">
+    <a-scene mindar-image="imageTargetSrc: markers/cara6.mind; autoStart: true;" embedded color-space="sRGB"
+             renderer="colorManagement: true, physicallyCorrectLights"
+             vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: true">
+
+      <a-assets>
         <a-asset-item id="modelo6" src="assets/modelo6.glb"></a-asset-item>
       </a-assets>
 
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
-      <!-- Cara 1 -->
       <a-entity mindar-image-target="targetIndex: 0">
-        <a-entity gltf-model="#modelo1" position="0 -0.1 0" scale="4 4 4" rotation="0 180 0"></a-entity>
-      </a-entity>
-
-      <!-- Cara 2 -->
-      <a-entity mindar-image-target="targetIndex: 1">
-        <a-entity gltf-model="#modelo2" position="0 -0.1 0" scale="4 4 4" rotation="0 180 0"></a-entity>
-      </a-entity>
-
-      <!-- Cara 3 -->
-      <a-entity mindar-image-target="targetIndex: 2">
-        <a-entity gltf-model="#modelo3" position="0 -0.1 0" scale="4 4 4" rotation="0 180 0"></a-entity>
-      </a-entity>
-
-      <!-- Cara 4 (Saturno nuevo) -->
-      <a-entity mindar-image-target="targetIndex: 3">
-        <a-entity gltf-model="#modelo4" position="0 -0.1 0" scale="4 4 4" rotation="0 180 0"></a-entity>
-      </a-entity>
-
-      <!-- Cara 5 -->
-      <a-entity mindar-image-target="targetIndex: 4">
-        <a-entity gltf-model="#modelo5" position="0 -0.1 0" scale="4 4 4" rotation="0 180 0"></a-entity>
-      </a-entity>
-
-      <!-- Cara 6 -->
-      <a-entity mindar-image-target="targetIndex: 5">
         <a-entity gltf-model="#modelo6" position="0 -0.1 0" scale="4 4 4" rotation="0 180 0"></a-entity>
       </a-entity>
-
-      <!-- Luz -->
-      <a-entity light="type: directional; intensity: 1" position="0 1 1"></a-entity>
-
     </a-scene>
   </div>
+
 </body>
 </html>
+
