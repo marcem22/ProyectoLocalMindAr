@@ -1,0 +1,419 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.6529538631439209,
+        0.4164220690727234,
+        0.6625356078147888
+      ],
+      "min": [
+        -0.5828416347503662,
+        -0.4164220690727234,
+        -0.6625356078147888
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 220902,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.6608278751373291,
+        0.40920260548591614,
+        0.662533700466156
+      ],
+      "min": [
+        -0.5828416347503662,
+        -0.4164220690727234,
+        -0.6625356078147888
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2359152,
+      "componentType": 5126,
+      "count": 65532,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 65532,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 883608,
+      "componentType": 5125,
+      "count": 343779,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3145536,
+      "componentType": 5126,
+      "count": 58953,
+      "max": [
+        0.6608278751373291,
+        0.4164220690727234,
+        0.6625356078147888
+      ],
+      "min": [
+        -0.5828416347503662,
+        -0.4164220690727234,
+        -0.662533700466156
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3852972,
+      "componentType": 5126,
+      "count": 58953,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 58953,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2258724,
+      "componentType": 5125,
+      "count": 285495,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "fab-model-conversion",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3400704,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1520136,
+      "byteOffset": 3400704,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4560408,
+      "byteOffset": 4920840,
+      "byteStride": 12,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 9481248,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Aluminium_Yellow_Anodized_Fingerprints",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6332339942135188,
+          0.0022387167718708138,
+          0.04116130923570019,
+          1.0
+        ],
+        "roughnessFactor": 0.763808803988736
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Heart_Aluminium Yellow Anodized Fingerprints_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Heart_Aluminium Yellow Anodized Fingerprints_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Heart_Aluminium Yellow Anodized Fingerprints_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.02539999969303608,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.02539999969303608,
+        0.0,
+        0.0,
+        -0.02539999969303608,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Heart pixel.FBX"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        9
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.6046932935714722,
+        14.16900634765625,
+        87.17618560791016,
+        1.0
+      ],
+      "name": "Camera001"
+    },
+    {
+      "name": "Object_4"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        0.8249073712949352,
+        -3.4612676246205673e-17,
+        0.5652679265474736,
+        0.0,
+        -2.3774694218334728e-08,
+        0.9999999999999991,
+        3.469491125276675e-08,
+        0.0,
+        -0.5652679265474732,
+        -4.205916014392916e-08,
+        0.8249073712949344,
+        0.0,
+        -46.412078857421875,
+        15.245803833007813,
+        69.84134674072266,
+        1.0
+      ],
+      "name": "Camera002"
+    },
+    {
+      "name": "Object_6"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        0.7911541536269523,
+        0.0,
+        -0.6116167960404789,
+        0.0,
+        0.26330778139223976,
+        0.9025853126568473,
+        0.3406005954698814,
+        0.0,
+        0.5520363370803748,
+        -0.43051103746145847,
+        0.7140841191111461,
+        0.0,
+        47.54497528076172,
+        -22.274051666259766,
+        59.92113494873047,
+        1.0
+      ],
+      "name": "Camera003"
+    },
+    {
+      "name": "Object_8"
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        1.135450005531311,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.5212054789032457e-16,
+        -1.135450005531311,
+        0.0,
+        0.0,
+        1.135450005531311,
+        2.5212054789032457e-16,
+        0.0,
+        0.16316981613636017,
+        14.908326148986816,
+        -0.09480061382055283,
+        1.0
+      ],
+      "name": "Heart lowpoly art"
+    },
+    {
+      "children": [
+        11,
+        12,
+        13
+      ],
+      "matrix": [
+        6.563274518023773e-06,
+        0.0,
+        -20.90770912170307,
+        0.0,
+        0.0,
+        20.9077091217041,
+        0.0,
+        0.0,
+        20.90770912170307,
+        0.0,
+        6.563274518023773e-06,
+        0.0,
+        0.0,
+        2.384185791015625e-07,
+        0.8363513946533203,
+        1.0
+      ],
+      "name": "Heart"
+    },
+    {
+      "mesh": 0,
+      "name": "Heart_Aluminium Yellow Anodized Fingerprints_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Heart_Aluminium Yellow Anodized Fingerprints_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Heart_Aluminium Yellow Anodized Fingerprints_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
